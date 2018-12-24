@@ -12,3 +12,7 @@ function nowServing(customerQueue) {
   var topOfQueue = customerQueue.shift();
   return topOfQueue;
 }
+
+function currentLine() {
+  
+}
