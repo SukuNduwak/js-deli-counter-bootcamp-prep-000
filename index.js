@@ -10,7 +10,7 @@ function nowServing(customerQueue) {
     return "There is nobody waiting to be served!";
   }
   var topOfQueue = customerQueue.shift();
-  return topOfQueue;
+  return `Currently serving ${topOfQueue}.`;
 }
 
 function currentLine(customerQueue) {
