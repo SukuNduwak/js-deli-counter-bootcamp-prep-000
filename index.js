@@ -6,6 +6,9 @@ function takeANumber(customerQueue, customerName) {
 }
 
 function nowServing(customerQueue) {
+  if (customerQueue.length === 0) {
+    return "There is nobody waiting to be served!";
+  }
   var topOfQueue = customerQueue.shift();
   return topOfQueue;
 }
