@@ -22,6 +22,7 @@ function currentLine(customerQueue) {
   while(i < customerQueue.length) {
     if ((i+1) === customerQueue.length) {
       lineString += i+1 + ". " + customerQueue[i] + ", ";
+      break;
     }
     lineString += i+1 + ". " + customerQueue[i] + ", ";
     i++;
