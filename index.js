@@ -13,6 +13,13 @@ function nowServing(customerQueue) {
   return topOfQueue;
 }
 
-function currentLine() {
-  
+function currentLine(customerQueue) {
+  if (customerQueue.length === 0) {
+    return "The line is currently empty.";
+  }
+  var i = 0;
+  var lineString = "The line is currently: ";
+  while(i < customerQueue.length) {
+    
+  }
 }
