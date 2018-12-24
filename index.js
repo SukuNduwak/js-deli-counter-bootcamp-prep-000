@@ -6,5 +6,6 @@ function takeANumber(customerQueue, customerName) {
 }
 
 function nowServing(customerQueue) {
-  
+  var topOfQueue = customerQueue.shift();
+  return topOfQueue;
 }
