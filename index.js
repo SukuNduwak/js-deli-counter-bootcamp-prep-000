@@ -20,7 +20,7 @@ function currentLine(customerQueue) {
   var i = 0;
   var lineString = "The line is currently: ";
   while(i < customerQueue.length) {
-    lineString += i+1 + ". " + customerQueue[i] + 
+    lineString += i+1 + ". " + customerQueue[i] + ","
     i++;
   }
 }
